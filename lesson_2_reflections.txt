@@ -1,0 +1,3 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When you initialize a repository, the zero state of the version control is set. This is the state from which git begins tracking any changes to any file in that directory. This is required as this is the very first step in running version control. The changes to the file would not be tracked if this wasn't done. 
