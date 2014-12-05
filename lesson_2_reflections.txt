@@ -16,3 +16,7 @@ Branches are helpful when making experimental changes or if there is a need to e
 How do the diagrams help you visualize the branch structure?
 
 These help illustrate the linear patterns of each branch and how that ties into the version history. It is also useful in showing which commits can be reached and which can be forgotten. 
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+When two branches are merged together, the commits on both branches get arranged into the same timeline and are organized by timestamp. These are represented as such in the diagram to keep the history intact and to show the common parent element and the commit history of the merged branch. 
