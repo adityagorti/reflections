@@ -5,3 +5,7 @@ When you initialize a repository, the zero state of the version control is set. 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 The staging aea is different in that it is not an actual directory. It is simply an in-between state which allows you see what files you are comitting. It gives you a chance to visually review what you are doing and a chance to cancel or amend which files you want to commit. 
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+You can check the differnces between the staging area and the working directory with git diff to see which changes are being staged. As long as this corresponds to a logical change, you can go ahead and commit it. 
