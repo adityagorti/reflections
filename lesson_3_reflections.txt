@@ -6,3 +6,4 @@ If you are using different computers to work on a project or working with other 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 	This is so that you can decide which commits should be sent to the remote repository. If Git automatically updtaed, then changes/commits that you did not want to be made public or added to the remote repo would be. 
+
