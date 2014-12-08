@@ -7,3 +7,10 @@ Why might you want to always pull changes manually rather than having Git automa
 
 	This is so that you can decide which commits should be sent to the remote repository. If Git automatically updtaed, then changes/commits that you did not want to be made public or added to the remote repo would be. 
 
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Forks - copying a repo directly in Github. You basically make a copy and then can modify the copy as you need to. The original will be preserved and only the forked copy is modified.
+
+Clones - Make a clone(exact copy) of a repo. You can do this both locally or clone a copy stored on GitHub to your local machine.
+
+Branches - A string of commits. You can have different branches in your repo which can store different timelines or different features. Youc an merge branches as need be to bring different timelines together. 
