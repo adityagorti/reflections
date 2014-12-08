@@ -20,3 +20,13 @@ These help illustrate the linear patterns of each branch and how that ties into 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 When two branches are merged together, the commits on both branches get arranged into the same timeline and are organized by timestamp. These are represented as such in the diagram to keep the history intact and to show the common parent element and the commit history of the merged branch. 
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Pros:
+
+	We don't have to sort through many lines of code each time we are trying to merge something. This can get very time consuming and we might miss some changes. 
+
+Cons:
+
+	There isn't as much control over the merge process as with manual merging so if Git doesn't recongize a conflict that you might have, then that code will get mixed in, possibly causing errors. 
