@@ -14,3 +14,7 @@ Forks - copying a repo directly in Github. You basically make a copy and then ca
 Clones - Make a clone(exact copy) of a repo. You can do this both locally or clone a copy stored on GitHub to your local machine.
 
 Branches - A string of commits. You can have different branches in your repo which can store different timelines or different features. Youc an merge branches as need be to bring different timelines together. 
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+	This is beneficial because you can have a working copy of the remote even without internet access and continue work on your local repo. Once you are done, and merge the changes with the local remote, then you can push the changes back to GitHub whenever you regain internet access. 
