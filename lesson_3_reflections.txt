@@ -18,3 +18,10 @@ Branches - A string of commits. You can have different branches in your repo whi
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 	This is beneficial because you can have a working copy of the remote even without internet access and continue work on your local repo. Once you are done, and merge the changes with the local remote, then you can push the changes back to GitHub whenever you regain internet access. 
+
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+	Without Git/GitHub, my preferred method of collaboration would probably be dropbox. I can upload files as needed and have others review it and even copy and download to their own machines. It would be easier to upload as you can simply drag and drop files to dropbox and let them upload. Downloading it is just as easy.
+
+	However, everything else such as documenting the version control history, going back to a certain stage of the project, etc would be much harder. 
