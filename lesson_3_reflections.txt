@@ -25,3 +25,9 @@ How would you collaborate without using Git or GitHub? What would be easier, and
 	Without Git/GitHub, my preferred method of collaboration would probably be dropbox. I can upload files as needed and have others review it and even copy and download to their own machines. It would be easier to upload as you can simply drag and drop files to dropbox and let them upload. Downloading it is just as easy.
 
 	However, everything else such as documenting the version control history, going back to a certain stage of the project, etc would be much harder. 
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+	Since the master is the main branch which contains the major/correct updates to the project, when there is a feature or code not agreed on or still being collaborated on, it is best to work on it in a separate branch and then bring it into master once finalized. 
+
+	Working directly in master has the advantage of keeping the process simple, you simply work and commit in the same branch. However, this may lead a lot of conflicts if different collaborators are all working on master and commiting their changes. Working with a separate branch keeps this process separate and the master clean. 
